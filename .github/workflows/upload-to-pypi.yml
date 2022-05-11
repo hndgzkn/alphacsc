@@ -1,6 +1,7 @@
 name: Upload to Pypi
 
 on:
+  push:
   pull_request:
   release:
     types: [created]
